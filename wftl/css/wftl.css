@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+#box{
+    width: 600px;
+    height: 300px;
+    color: #495A80;
+    font-size: 22px;
+    text-align: center;
+    font-family: '苹方';
+}
+.boxs {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+.boxl {
+  overflow: hidden;
+  position: relative;
+  background: #222;
+}
+#box {
+  width: 10000px;
+  position: relative;
+  top: 0; left: -450px;
+}
+.boxz {
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#b1{
+    background: #EFCEE8;
+}
+#b2 {
+    background: #F3D7B5;
+}
+#b3 {
+    background: #FDFFDF;
+}
+#b4 {
+    background: #DAF9CA;
+}
+#b5 {
+    background: #C7B3E5;
+}
+.transition {
+  transition: .7s;
+}
