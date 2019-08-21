@@ -6,7 +6,7 @@
 
 }
 #box{
-    width: 600px;
+    width: 500px;
     height: 300px;
     color: #495A80;
     font-size: 22px;
@@ -14,29 +14,30 @@
     font-family: '苹方';
 }
 .boxs {
-  position: relative;
-  width: 600px;
-  height: 300px;
-  margin: 0 auto;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
 }
 .boxl {
-  overflow: hidden;
-  position: relative;
-  background: #222;
+    overflow: hidden;
+    position: relative;
+    background: #222222;
 }
 #box {
-  width: 10000px;
-  position: relative;
-  top: 0; left: -450px;
+    width: 10000px;
+    position: relative;
+    top: 0;
+    /*left: -450px;*/
 }
 .boxz {
-  height: 300px;
-  width: 500px;
-  cursor: pointer;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    height: 300px;
+    width: 500px;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #b1{
     background: #EFCEE8;
@@ -54,5 +55,5 @@
     background: #C7B3E5;
 }
 .transition {
-  transition: .7s;
+    transition: .7s;
 }
